@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'default/index'
-
+  root  'default#index'
+  get 'page1'=> 'default#feedzy'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

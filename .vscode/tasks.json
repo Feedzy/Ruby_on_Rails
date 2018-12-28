@@ -1,0 +1,15 @@
+// Sass configuration
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Sass Compiler",
+            "type": "shell",
+            "command": "node-sass ./app/assets/stylesheets/default.scss  ./app/assets/stylesheets/default.css",
+            "command": "node-sass ./app/assets/stylesheets/lamine.scss  ./app/assets/stylesheets/lamine.css",
+            "group": "build"
+        }
+    ]
+}
